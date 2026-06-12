@@ -10,6 +10,12 @@ const actividad3=document.getElementById("a3");
 const actividad4=document.getElementById("a4");
 const actividad5=document.getElementById("a5");
 
+const descripcion1=document.getElementById("d1");
+const descripcion2=document.getElementById("d2");
+const descripcion3=document.getElementById("d3");
+const descripcion4=document.getElementById("d4");
+const descripcion5=document.getElementById("d5");
+
 fetch('base.json')
 .then(response=> response.json())
 .then(data =>{
@@ -24,4 +30,10 @@ fetch('base.json')
     actividad3.textContent=data.taller3;
     actividad4.textContent=data.taller4;
     actividad5.textContent=data.actividades;
+
+    descripcion1.textContent=data.descripcion1;
+    descripcion2.textContent=data.descripcion2;
+    descripcion3.textContent=data.descripcion3;
+    descripcion4.textContent=data.descripcion4;
+    descripcion5.textContent=data.descripcion5;
 })
