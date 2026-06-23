@@ -13,21 +13,22 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 70px;
+    min-height: 4.5rem;
 }
 
 nav{
     display: flex;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 a:link, a:visited {
   background-color: #1e2b22;
   color: white;
-  padding: 5px 7px;
+  padding: .3rem .5rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  border-radius: 0.3rem;
 }
 
 section{
@@ -45,12 +46,13 @@ footer{
 }
 
 .logo img{
-    height: 140px;
+    height: 8.75rem;
+    margin: .7rem;
 }
 
 .titulo-header{
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 .container{
